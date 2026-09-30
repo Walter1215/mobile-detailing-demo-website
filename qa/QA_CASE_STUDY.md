@@ -96,6 +96,20 @@ Confirmed results included:
 
 All documented defects were fixed and successfully retested.
 
+## Test Evidence
+
+### Desktop Layout
+
+![Desktop website layout](evidence/desktop-home.png)
+
+### Mobile Layout
+
+![Mobile responsive layout](evidence/mobile-home.png)
+
+### Keyboard Focus Indicator
+
+![Visible keyboard focus indicator](evidence/keyboard-focus.png)
+
 ## Skills Demonstrated
 
 - Manual functional testing

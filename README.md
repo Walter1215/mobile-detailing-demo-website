@@ -6,6 +6,10 @@ A responsive mobile-detailing website created as a fictional business demo.
 
 https://mobile-detailing-demo-website.pages.dev/
 
+## Project Preview
+
+![Cuadra's Mobile Detailing desktop preview](qa/evidence/desktop-home.png)
+
 ## Project Overview
 
 This project demonstrates the design, development, testing, and deployment of a responsive website for a fictional mobile detailing business.
