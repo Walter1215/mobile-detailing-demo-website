@@ -62,4 +62,10 @@ The website was manually tested for:
 - Page title and metadata
 - Production deployment
 
-A detailed QA case study will be added to the `qa` folder.
+### QA Documentation
+
+- [QA Case Study](qa/QA_CASE_STUDY.md)
+- [Manual Test Cases](qa/TEST_CASES.md)
+- [Bug Reports](qa/BUG_REPORTS.md)
+- [Test Summary Report](qa/TEST_SUMMARY.md)
+
