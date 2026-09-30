@@ -122,4 +122,9 @@ footer p {
     margin: 0;
     max-width: none;
 }
+a:focus-visible {
+    outline: 3px solid #f4a261;
+    outline-offset: 4px;
+}
+
 }
