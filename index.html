@@ -1,5 +1,5 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,75 +7,364 @@
 
     <title>Cuadra's Mobile Detailing | Mobile Detailing Demo</title>
 
-    <link rel="stylesheet" href="styles.css">
-
     <meta
-    name="description"
-    content="Demo mobile detailing website showcasing responsive web development and quality assurance testing."
+        name="description"
+        content="Demo mobile detailing website showcasing responsive web development and quality assurance testing."
+    >
 
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
-    <nav class="navbar">
-        <p>Cuadra's Mobile Detailing</p>
 
-        <div>
-            <a href="#home">Home</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
-            
+    <!-- Navigation -->
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
 
-        </div>
-    </nav>
-    <header class="hero" id="home">
-        <h1>Cuadra's Mobile Detailing</h1>
+            <a href="#home" class="brand">
+                <span class="brand-mark" aria-hidden="true">C</span>
 
-        <p>Professional car detailing delivered to your location.</p>
+                <span class="brand-text">
+                    CUADRA'S
+                    <strong>MOBILE DETAILING</strong>
+                </span>
+            </a>
 
-        <a href="#services">View Services</a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#benefits">Why Us</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+        </nav>
     </header>
 
-    <section id="services">
-        <h2>Our Services</h2>
+    <main>
 
-        <div class="service-grid">
+        <!-- Hero -->
+        <section class="hero" id="home">
 
-        <article>
-            <h3>Exterior Wash</h3>
+            <div class="hero-content">
 
-            <p>Hand wash, wheel cleaning, and tire shine.</p>
-            <p class="price">Starting at $49</p>
-        </article>
+                <p class="eyebrow">
+                    Premium Mobile Car Care
+                </p>
 
-        <article>
-            <h3>Interior Detail</h3>
+                <h1>
+                    Your Car.
+                    <span>Our Passion.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Experience professional mobile detailing
+                    without leaving your driveway. We bring
+                    the shine directly to you.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#services" class="primary-button">
+                        View Our Services
+                    </a>
+
+                    <a href="#contact" class="secondary-button">
+                        Book a Detail
+                    </a>
+                </div>
+
+                <ul class="hero-benefits">
+                    <li>Mobile Convenience</li>
+                    <li>Quality Detailing</li>
+                    <li>Affordable Packages</li>
+                </ul>
+
+            </div>
+
+            <div class="hero-visual">
+
+                <div class="shine-card">
+
+                    <p class="shine-label">
+                        Premium Auto Detailing
+                    </p>
+
+                    <p class="shine-title">
+                        CLEAN.
+                        <span>SHINE.</span>
+                        REPEAT.
+                    </p>
+
+                    <div class="shine-line"></div>
+
+                    <div class="shine-details">
+                        <span>EXTERIOR</span>
+                        <span>INTERIOR</span>
+                        <span>FULL DETAIL</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Services -->
+        <section class="services-section" id="services">
+
+            <div class="section-heading">
+                <p class="eyebrow">What We Offer</p>
+                <h2>Our Detailing Services</h2>
+                <p>
+                    Choose the right package for your vehicle.
+                    Quality car care delivered to your location.
+                </p>
+            </div>
+
+            <div class="service-grid">
+
+                <article class="service-card">
+
+                    <p class="service-number">01 / EXTERIOR</p>
+
+                    <h3>Exterior Wash</h3>
+
+                    <p class="service-description">
+                        Restore your vehicle's exterior shine
+                        with a professional hand wash.
+                    </p>
+
+                    <ul>
+                        <li>Exterior hand wash</li>
+                        <li>Wheel cleaning</li>
+                        <li>Tire shine</li>
+                        <li>Exterior finishing</li>
+                    </ul>
+
+                    <p class="price">
+                        <span>Starting at</span>
+                        $49
+                    </p>
+
+                    <a href="#contact" class="card-link">
+                        Book This Service
+                    </a>
+
+                </article>
+
+                <article class="service-card">
+
+                    <p class="service-number">02 / INTERIOR</p>
+
+                    <h3>Interior Detail</h3>
+
+                    <p class="service-description">
+                        Refresh your vehicle's interior with
+                        detailed cleaning and care.
+                    </p>
+
+                    <ul>
+                        <li>Interior wipe-down</li>
+                        <li>Carpet vacuuming</li>
+                        <li>Seat vacuuming</li>
+                        <li>Steam cleaning</li>
+                        <li>Seat shampooing</li>
+                    </ul>
+
+                    <p class="price">
+                        <span>Starting at</span>
+                        $70
+                    </p>
+
+                    <a href="#contact" class="card-link">
+                        Book This Service
+                    </a>
+
+                </article>
+
+                <article class="service-card featured-card">
+
+                    <p class="popular-label">
+                        Most Popular
+                    </p>
+
+                    <p class="service-number">03 / COMPLETE</p>
+
+                    <h3>Full Detail</h3>
+
+                    <p class="service-description">
+                        Complete interior and exterior
+                        detailing for your vehicle.
+                    </p>
+
+                    <ul>
+                        <li>Complete exterior wash</li>
+                        <li>Wheel and tire cleaning</li>
+                        <li>Interior vacuuming</li>
+                        <li>Interior deep cleaning</li>
+                        <li>Finishing touches</li>
+                    </ul>
+
+                    <p class="price">
+                        <span>Starting at</span>
+                        $100
+                    </p>
+
+                    <a href="#contact" class="card-link">
+                        Book This Service
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Benefits -->
+        <section class="benefits-section" id="benefits">
+
+            <div class="section-heading">
+                <p class="eyebrow">Why Choose Us</p>
+                <h2>Detailing Made Convenient</h2>
+                <p>
+                    Professional car care designed around
+                    your busy schedule.
+                </p>
+            </div>
+
+            <div class="benefits-grid">
+
+                <article>
+                    <span class="benefit-icon">01</span>
+                    <h3>We Come to You</h3>
+                    <p>
+                        Enjoy mobile detailing at your home,
+                        workplace, or another convenient location.
+                    </p>
+                </article>
+
+                <article>
+                    <span class="benefit-icon">02</span>
+                    <h3>Attention to Detail</h3>
+                    <p>
+                        Every vehicle receives careful cleaning
+                        with attention to the small details.
+                    </p>
+                </article>
+
+                <article>
+                    <span class="benefit-icon">03</span>
+                    <h3>Flexible Packages</h3>
+                    <p>
+                        Choose from exterior, interior, or
+                        complete detailing services.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Process -->
+        <section class="process-section" id="process">
+
+            <div class="section-heading">
+                <p class="eyebrow">Simple Process</p>
+                <h2>How It Works</h2>
+                <p>
+                    Getting your vehicle detailed
+                    is simple and convenient.
+                </p>
+            </div>
+
+            <div class="process-grid">
+
+                <article>
+                    <span>1</span>
+                    <h3>Choose a Package</h3>
+                    <p>
+                        Select the detailing service
+                        that fits your vehicle's needs.
+                    </p>
+                </article>
+
+                <article>
+                    <span>2</span>
+                    <h3>Schedule Your Detail</h3>
+                    <p>
+                        Contact us to arrange a
+                        convenient appointment.
+                    </p>
+                </article>
+
+                <article>
+                    <span>3</span>
+                    <h3>Enjoy the Shine</h3>
+                    <p>
+                        We arrive at your location
+                        and take care of the detailing.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Contact -->
+        <section class="contact-section" id="contact">
+
+            <div class="contact-content">
+
+                <p class="eyebrow">
+                    Ready for a Fresh Start?
+                </p>
+
+                <h2>
+                    Give Your Car the
+                    Attention It Deserves.
+                </h2>
+
+                <p>
+                    Contact us to schedule your
+                    next mobile detailing service.
+                </p>
+
+                <a href="tel:+13055550123" class="primary-button">
+                    Call (305) 555-0123
+                </a>
+
+                <p class="demo-notice">
+                    Demo website — sample contact information.
+                    No actual booking service is provided.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <div class="footer-content">
+
+            <p class="footer-brand">
+                Cuadra's Mobile Detailing
+            </p>
 
             <p>
-                Complete wipe-down, carpet and seat vacuuming,
-                steam cleaning, and seat shampooing.
+                &copy; <span id="current-year"></span>
+                Cuadra's Mobile Detailing.
             </p>
-            <p class="price">Starting at $70</p>
-        </article>
-
-        <article>
-            <h3>Full Detail</h3>
-            
 
             <p>
-                Complete interior and exterior detailing for your vehicle.
+                Demo website created for portfolio purposes.
             </p>
-            <p class="price">Starting at $100</p>
-        </article>
+
         </div>
-    </section>
-    <section id="contact">
-        <h2>Book Your Detail</h2>
-        <p> Call or Text us to schedule your mobile detailing service.</p>
-        <a href="tel:+13055550123">Call (305) 555-0123</a>
-    </section>
-    <footer>
-    <p>&copy; <span id="current-year"></span> Cuadra's Mobile Detailing. Demo website.</p>
 
-    <script src="script.js"></script>
+    </footer>
+
 </body>
 </html>
